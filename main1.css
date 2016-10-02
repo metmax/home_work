@@ -1,0 +1,132 @@
+body {
+    font-family: inherit;
+    background-color: dimgray;
+}
+
+.logo {
+    margin-top: 51px;
+    background-image: url(img/coffee-beans.jpg);
+    background-size: cover;
+}
+
+.logo__content {
+    padding: 40px;
+    height: 400px;
+
+}
+
+.services {
+    padding: 50px 0;
+}
+.services__item {
+    text-align: center;
+    font-size: 20px;
+}
+.services__item h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.services__item p {
+    font-size: 15px;
+}
+
+.coffee-catalog {
+    padding: 15px 0 60px 0;
+    border-bottom: 1px solid black;
+}
+
+.coffee-catalog .sub-title {
+    margin-bottom: 55px;
+    text-align: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.coffee-carousel__item {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.coffee__image {
+    border: 1px solid black;
+}
+
+.coffee__img {
+    height: 450px;
+    margin: auto;
+    display: block;
+}
+
+.coffee__content {
+    border: 1px solid black;
+}
+
+.coffee__info {
+    padding-top: 5px;
+    height: 50px;
+}
+
+.coffee__info a {
+    color: black;
+}
+
+.coffee__title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 8px;
+    display: block;
+}
+
+.coffee__category {
+    text-align: right;
+    padding-right: 23px;
+}
+
+.coffee__bottom-content {
+    border-top: 1px solid black;
+    padding: 8px;
+}
+
+.coffee__preview {
+    float: right;
+    color: black;
+    padding: 3px 13px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.coffee__price {
+    float: left;
+    color: black;
+    font-size: 15px;
+    cursor: default;
+}
+
+.coffee__preview:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.see-all-button {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.see-all-button a {
+    font-size: 17px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.see-all-button a:hover {
+    text-decoration: none;
+    color: black;
+}
